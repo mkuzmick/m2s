@@ -26,6 +26,8 @@ function Still(tsElements, videoFilePath, settings){
     cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
     }
   else {
+    console.log("about to run command:");
+    console.log(settings.ffmpegPath + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
     cp.spawnSync(settings.ffmpegPath, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
     cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
     }
