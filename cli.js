@@ -23,6 +23,11 @@ console.log(
 );
 
 async function main(yargs) {
+  if (!conf.all) {
+    console.log("looks like you don't have a config set up yet.  Try specifying at least your desired output directory by entering --config --outputDir=/path/to/dir");
+    await configurator.setDefaults(yargs);
+    process.exit();
+  }
   if (yargs.settings || yargs.config) {
     await configurator.setDefaults(yargs);
     process.exit();
