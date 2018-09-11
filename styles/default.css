@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400|BenchNine:300,400|Montserrat:800|Source+Code+Pro|Tulpen+One|Wire+One|Work+Sans:900');
+body {
+  font-family: 'Assistant';
+  font-size: 12pt;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+h4 {
+  font-size: 14pt;
+}
+
+pre, code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 11pt;
+}
+
+pre {
+  background-color: rgba(0, 200, 0, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgba(0, 140, 0, 0.4);
+  padding: 5px;
+}
+
+code {
+  background-color: rgba(0, 200, 0, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgba(0, 140, 0, 0.4);
+  border-radius: 2px;
+  padding: 4px 8px 4px 8px;
+}
+
+pre code {
+  background-color: rgba(0, 50, 0, 0);
+  border-style: none;
+  padding: 0px;
+}
+
+img {
+  max-width: 90%;
+}

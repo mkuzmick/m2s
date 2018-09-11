@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <% include ../partials/head %>
+      <link rel='stylesheet' href='/css/m2s_output.css'>
+    </head>
+    <body>
+      <% include ../partials/header.ejs %>
+      <div class="container">
+        <h1><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+        <p>
+          listing all stills from m2s.
+        </p>
+        <ol>
+          <% for (var i = 0; i < stillArray.length; i++) { %>
+            <li>
+              <%= stillArray[i].stillFilePath  %>
+            </li>
+          <% } %>
+        </ol>
+        <div class="images">
+          <% for (var i = 0; i < stillArray.length; i++) { %>
+            <br />
+            <img src= <%= ("/images/" + stillArray[i].stillFileName)  %> class="image" >
+            <h4><%- stillArray[i].tcString %></h4>
+          <% } %>
+        </div>
+      </div>
+  <% include ../partials/foot %>
