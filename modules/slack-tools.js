@@ -1,6 +1,6 @@
 const cp = require('child_process');
 
-function slackIt(m2sOutput, settings){
+function postToSlack(m2sOutput, settings){
   console.log("done the stills--now prepping payload and sending to Slack---IF you entered a webhook url OR have a $SLACK_WEBHOOK_URL environment variable set, that is");
   var theMessage = ""
   m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));
@@ -14,4 +14,4 @@ function slackIt(m2sOutput, settings){
   console.log("done");
 }
 
-module.exports.slackIt = slackIt;
+module.exports.postToSlack = postToSlack;

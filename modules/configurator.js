@@ -8,6 +8,7 @@ var reFcpxml = /fcpxml$/;
 var path = require("path");
 
 exports.configure = function(yargs){
+
   var defaultSettings = {
     valid: false,
     ffmpegPath: false,

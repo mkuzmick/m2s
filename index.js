@@ -2,7 +2,7 @@ global.__basedir = __dirname;
 // var mongoose = require('mongoose');
 // const _ = require('lodash');
 const m2sf = require("./modules/m2s").fcpxmlFileToStills;
-const slackIt = require("./modules/slack-it").slackIt;
+const slackTools = require("./modules/slack-tools");
 // var db = mongoose.connection;
 
 
