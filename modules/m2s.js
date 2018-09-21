@@ -21,6 +21,8 @@ function Still(tsElements, videoFilePath, settings){
   console.log(this.eightDigitDate);
   this.newDateString = (this.eightDigitDate + this.tcNumber.substring(0,4))
   if (this.videoFilePath.includes('GH4')) {
+    console.log("about to run command:");
+    console.log(settings.ffmpegPath + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
     cp.spawnSync(settings.ffmpegPath, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', gh4Boost_001, this.stillFilePath]);
     console.log("used the GH4 boost on " + this.stillFilePath);
     cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);

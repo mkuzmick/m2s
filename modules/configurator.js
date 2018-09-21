@@ -43,8 +43,6 @@ exports.setDefaults = function(yargs){
   console.log("yargs:");
   console.log(chalk.cyan(JSON.stringify(yargs, null, 4)));
   var settings = {...conf.all, ...yargs};
-  console.log("the spread settings are:");
-  console.log(chalk.cyan(JSON.stringify(settings, null, 4)));
   if (yargs.outputDir) {
     conf.set('outputDir', yargs.outputDir)
   }

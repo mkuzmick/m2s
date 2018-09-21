@@ -1,6 +1,13 @@
 # m2s
 
-This is a utility that grabs markers from an `.fcpxml` file and generates stills for each, naming each still (and changing its creation date) to match its timecode.
+This is a utility that grabs markers from an `.fcpxml` file and generates stills for each, naming each still (and changing its creation date) to match its timecode.  We typically install it globally:
+```
+npm i -g m2s
+```
+and then run it using the cli:
+```
+m2s /path/to/fcpxml [options]
+```
 
 ## setup
 
@@ -13,6 +20,7 @@ The script will look for `ffmpeg` in your PATH, and if it finds the command work
 Other variables you can set include
 ```
 --html // create html displaying images and open
+--relink // point to media folder for relinking
 --pdf // coming soon
 --jpg // coming soon
 ```
