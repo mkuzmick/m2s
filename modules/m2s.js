@@ -126,7 +126,7 @@ function fcpxmlFileToStills(settings){
   var newHtml = ""
   stillArray.forEach((still)=>{
     console.log("adding " + still.stillFilePath);
-    newHtml+=`<p>still: ${still.stillFilePath}</p><img src=${still.stillFilePath}></img>`
+    newHtml+=`<p>still: ${still.stillFilePath}</p><img src="${still.stillFilePath}"></img>`
   })
   var theHtmlOutput = settings.htmlOutputStart + newHtml + settings.htmlOutputEnd;
   settings.htmlOutputUrl = path.join(settings.jobDir, (settings.jobId + ".html"));
