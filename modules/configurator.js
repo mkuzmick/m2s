@@ -11,7 +11,7 @@ exports.configure = function(yargs){
 
   var defaultSettings = {
     valid: false,
-    ffmpegPath: false,
+    ffmpegPath: 'ffmpeg',
     html: false,
     outputDir: false,
     fcpxml: false,
