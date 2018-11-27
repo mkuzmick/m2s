@@ -19,7 +19,11 @@ function Still(tsElements, videoFilePath, settings){
   this.stillFilePath = path.join(settings.jobStillsDir, this.stillFileName);
   this.eightDigitDate = this.stillFileName.split("_")[0];
   console.log(this.eightDigitDate);
-  this.newDateString = (this.eightDigitDate + this.tcNumber.substring(0,4))
+  this.newDateString = (this.eightDigitDate + this.tcNumber.substring(0,4));
+  var enclosingFolder = path.dirname(this.stillFilePath);
+  if (!fs.existsSync(enclosingFolder)) {
+    fs.mkdirSync(enclosingFolder);
+  }
   if (this.videoFilePath.includes('GH4')) {
     console.log("about to run command:");
     console.log(settings.ffmpegPath + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
