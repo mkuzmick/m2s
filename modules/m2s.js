@@ -85,6 +85,7 @@ function parseTheStuff(settings, result, stillArray, theProject){
       var videoFileName = theProject.sequence[0].spine[0]["clip"][i].$.name;
       var videoFileStartTs = "0/24000s";
       if (theProject.sequence[0].spine[0]["clip"][i].$.start){
+          console.log("this clip has as start time: " + theProject.sequence[0].spine[0]["clip"][i].$.start);
           videoFileStartTs = theProject.sequence[0].spine[0]["clip"][i].$.start;
       }
       var theClip = result.fcpxml.resources[0].asset.filter(function(possibleClip){
@@ -93,7 +94,7 @@ function parseTheStuff(settings, result, stillArray, theProject){
       console.log(JSON.stringify(theClip, null, 5));
       var videoFilePath = theClip[0].$.src.replace('file:///','/');
       // determine start for this camera
-      // findMarkers(theProject.sequence[0].spine[0].clip[i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+      findMarkers(theProject.sequence[0].spine[0].clip[i], videoFilePath, stillArray, videoFileStartTs, settings);
     }
   }
 }

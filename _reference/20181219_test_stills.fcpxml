@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="katie_30" uid="9DDA652275AF3DE52F9705988CA3A7C9" src="file:///Users/mk/Desktop/katie_30.mov" start="554028475/24000s" duration="61659/24000s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="16" audioRate="48000">
+            <bookmark>Ym9va+gCAAAAAAQQMAAAAA7zq7MWa/vMOelXskY4loDlU0AdmNHBbPfAX7vB78qG2AEAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAAHAAAAAQEAAERlc2t0b3AADAAAAAEBAABrYXRpZV8zMC5tb3YQAAAAAQYAABAAAAAgAAAALAAAADwAAAAIAAAABAMAAHCcCgAAAAAACAAAAAQDAABSQQsAAAAAAAgAAAAEAwAAPO0dAAAAAAAIAAAABAMAAH2VkQAAAAAAEAAAAAEGAABoAAAAeAAAAIgAAACYAAAACAAAAAAEAABBwOTItHP85RgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAACAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8DAAAAAQEAAG1rMQAIAAAABAMAAADgAePoAAAACAAAAAAEAABBwK2GQNYXYyQAAAABAQAAMzM2QTAxNDUtMDY0OC00OEM0LTkwNkItNTA0MUFCNDlDMDIxGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAATlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAADAwAAqcsAANgAAAD+////AQAAAAAAAAARAAAABBAAAFAAAAAAAAAABRAAAKgAAAAAAAAAEBAAANAAAAAAAAAAQBAAAMAAAAAAAAAAAiAAAJQBAAAAAAAABSAAAAwBAAAAAAAAECAAABwBAAAAAAAAESAAAEgBAAAAAAAAEiAAACgBAAAAAAAAEyAAADgBAAAAAAAAICAAAHQBAAAAAAAAMCAAAKABAAAAAAAAAcAAAPAAAAAAAAAAEcAAACAAAAAAAAAAEsAAAAABAAAAAAAAENAAAAQAAAAAAAAAqAEAgMwBAAAAAAAA</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>Apple ProRes 422 HQ</string>
+                        <string>Linear PCM</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-12-18 15:35:19 -0500"/>
+            </metadata>
+        </asset>
+        <asset id="r3" name="MX0A2811" uid="454B2B8275FF94A9DB3F2AC8E91C9B9C" src="file:///Volumes/mk3/20181213_00x_Party/5Da/MX0A2811.MOV" start="877365489/24000s" duration="615615/24000s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va/ADAAAAAAQQMAAAADE0kI8bktERzSPO0s5judtQ5dkfbQQy+MGymUmSwUgH7AIAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMwASAAAAAQEAADIwMTgxMjEzXzAweF9QYXJ0eQAAAwAAAAEBAAA1RGEADAAAAAEBAABNWDBBMjgxMS5NT1YUAAAAAQYAABAAAAAgAAAALAAAAEgAAABUAAAACAAAAAQDAAB0nAoAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANwrAAAAAAAACAAAAAQDAADfKwAAAAAAAAgAAAAEAwAAHSwAAAAAAAAUAAAAAQYAAIQAAACUAAAApAAAALQAAADEAAAACAAAAAAEAABBwOH/iQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAUAAAAEAAAAAwMAAAMAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazMvCAAAAAQDAAAA4AHj6AAAAAgAAAAABAAAQcC2g38WQs8kAAAAAQEAADY5MDU4MzMzLTg1RUUtNEFFQy1CM0NCLUY4NTkzQzBFRkUyOBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazMIAAAAAQkAAGZpbGU6Ly8vAwAAAAEBAABtazEACAAAAAAEAABBwK2GQNYXYyQAAAABAQAAMzM2QTAxNDUtMDY0OC00OEM0LTkwNkItNTA0MUFCNDlDMDIxAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAANAIAAAAAAAAFIAAA3AEAAAAAAAAQIAAA7AEAAAAAAAARIAAACAIAAAAAAAASIAAAXAEAAAAAAAATIAAA+AEAAAAAAAAgIAAAqAEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAKgCAAC0AgAAwAIAALQCAAC0AgAAtAIAAMwAAAD+////AQAAAEACAAAQAAAABBAAAGgAAAAAAAAABRAAANQAAAAAAAAAEBAAAAABAAAAAAAAQBAAAPAAAAAAAAAAVBAAACgBAAAAAAAAVRAAADQBAAAAAAAAVhAAACABAAAAAAAAACAAAMwCAAAAAAAAAiAAAMgBAAAAAAAABSAAAEABAAAAAAAAECAAACAAAAAAAAAAESAAAHwBAAAAAAAAEiAAAFwBAAAAAAAAEyAAAGwBAAAAAAAAICAAAKgBAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>Linear PCM</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-12-14 14:46:10 -0500"/>
+            </metadata>
+        </asset>
+    </resources>
+    <library location="file:///Volumes/mk3/montage_holiday.fcpbundle/">
+        <event name="12-14-18" uid="B4FC8F0F-EE8C-4EA7-93E4-4D289617C8B6">
+            <project name="20181219_test_stills" uid="750481C6-75E5-44B8-BDB2-1CE528FD8428" modDate="2018-12-19 09:01:53 -0500">
+                <sequence duration="676676/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <clip name="katie_30" offset="0s" duration="61061/24000s" start="554028475/24000s" tcFormat="NDF">
+                            <video offset="554028475/24000s" ref="r2" duration="61061/24000s" start="554028475/24000s">
+                                <audio lane="-16" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-16" srcCh="16"/>
+                                <audio lane="-15" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-15" srcCh="15"/>
+                                <audio lane="-14" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-14" srcCh="14"/>
+                                <audio lane="-13" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-13" srcCh="13"/>
+                                <audio lane="-12" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-12" srcCh="12"/>
+                                <audio lane="-11" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-11" srcCh="11"/>
+                                <audio lane="-10" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-10" srcCh="10"/>
+                                <audio lane="-9" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-9" srcCh="9"/>
+                                <audio lane="-8" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-8" srcCh="8"/>
+                                <audio lane="-7" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-7" srcCh="7"/>
+                                <audio lane="-6" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-6" srcCh="6"/>
+                                <audio lane="-5" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-5" srcCh="5"/>
+                                <audio lane="-4" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-4" srcCh="4"/>
+                                <audio lane="-3" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-3" srcCh="3"/>
+                                <audio lane="-2" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-2" srcCh="2"/>
+                                <audio lane="-1" offset="16620854250/720000s" ref="r2" duration="1849770/720000s" start="16620854250/720000s" role="dialogue.dialogue-1" srcCh="1"/>
+                            </video>
+                            <marker start="92343251/4000s" duration="1001/24000s" value="Marker 2"/>
+                        </clip>
+                        <asset-clip name="MX0A2811" offset="61061/24000s" ref="r3" duration="615615/24000s" start="877365489/24000s" audioRole="dialogue" tcFormat="NDF">
+                            <keyword start="292455163/8000s" duration="615615/24000s" value="5da"/>
+                            <marker start="877717841/24000s" duration="1001/24000s" value="Marker 1"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
