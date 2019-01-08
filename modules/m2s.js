@@ -25,13 +25,13 @@ function Still(tsElements, videoFilePath, settings){
     console.log(settings.ffmpegPath + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
     cp.spawnSync(settings.ffmpegPath, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', gh4Boost_001, this.stillFilePath]);
     console.log("used the GH4 boost on " + this.stillFilePath);
-    // cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
+    cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
     }
   else {
     console.log("about to run command:");
     console.log(settings.ffmpegPath + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
     cp.spawnSync(settings.ffmpegPath, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
-    // cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
+    cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
     }
   console.log("\n\n\n\n\n\n\n\n\ngoing to try to log newDateString");
   console.log(this.newDateString);
