@@ -1,6 +1,6 @@
 {
   "name": "m2s",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "takes fcpxml markers and generates stills",
   "main": "index.js",
   "bin": {
