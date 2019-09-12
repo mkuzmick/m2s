@@ -13,7 +13,7 @@ exports.configure = function(yargs){
     valid: false,
     ffmpegPath: false,
     html: false,
-    outputDir: false,
+    outputDir: "~/Desktop/_m2s",
     fcpxml: false,
     css: fs.readFileSync(path.join(__basedir, "styles", "default.css"), "utf-8")
   }

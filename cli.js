@@ -44,6 +44,7 @@ async function main(yargs) {
     console.log("Then, each time you run the script you'll need to supply a path to an fcpxml file:\n\t--fcpxml=/path/to/fcpxml\n\t");
     console.log("\nand you can specify some of the following things too:");
     console.log("\n\t--shootfolder=/path/to/your/media\n\t--html=true/false");
+    return false;
   }
 }
 
@@ -52,4 +53,6 @@ async function main(yargs) {
      console.log('done the main function' + JSON.stringify(result))
      return result
    })
-   .then((result) => {cp.spawn('open', [result.htmlOutputUrl])});
+   .then((result) => {if (result) {
+
+   }cp.spawn('open', [result.htmlOutputUrl])});
