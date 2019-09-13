@@ -1,0 +1,197 @@
+{
+    "fcpxml": {
+        "$": {
+            "version": "1.8"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "$": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080",
+                            "colorSpace": "1-1-1 (Rec. 709)"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "$": {
+                            "id": "r2",
+                            "name": "Sample_5D4_1080p",
+                            "uid": "59E626F187CAFDCFD228E999FAC3BB86",
+                            "src": "file:///Users/mk/Desktop/Sample_5D4_1080p.MOV",
+                            "start": "911757847/24000s",
+                            "duration": "70070/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va/QCAAAAAAQQMAAAAOrFes6Pj7jofNYdCBcquE5UoTJ5QIWN0iXw9vmyu7MS5AEAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAAHAAAAAQEAAERlc2t0b3AAFAAAAAEBAABTYW1wbGVfNUQ0XzEwODBwLk1PVhAAAAABBgAAEAAAACAAAAAsAAAAPAAAAAgAAAAEAwAAbpwKAAAAAAAIAAAABAMAAEFBCwAAAAAACAAAAAQDAAB6mTEAAAAAAAgAAAAEAwAAoQvDAAAAAAAQAAAAAQYAAHAAAACAAAAAkAAAAKAAAAAIAAAAAAQAAEHBcF1BAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAIAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwcAAAABAQAAbWtfYm9vdAAIAAAABAMAAADgAePoAAAACAAAAAAEAABBwTh7U+wjWSQAAAABAQAAOTQ1RDREMzItNUU3Mi00QzkwLThCREEtNTI5RTQxMEQyRjNDGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAATlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAADAwAATZEAANgAAAD+////AQAAAAAAAAARAAAABBAAAFgAAAAAAAAABRAAALAAAAAAAAAAEBAAANgAAAAAAAAAQBAAAMgAAAAAAAAAAiAAAKABAAAAAAAABSAAABQBAAAAAAAAECAAACQBAAAAAAAAESAAAFQBAAAAAAAAEiAAADQBAAAAAAAAEyAAAEQBAAAAAAAAICAAAIABAAAAAAAAMCAAAKwBAAAAAAAAAcAAAPgAAAAAAAAAEcAAACAAAAAAAAAAEsAAAAgBAAAAAAAAENAAAAQAAAAAAAAAtAEAgNgBAAAAAAAA"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "$": {
+                    "location": "file:///Users/mk/Movies/test.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "$": {
+                            "name": "9-6-19",
+                            "uid": "F306F8EB-AE43-4EED-8BA1-1A6DC4BD6653"
+                        },
+                        "project": [
+                            {
+                                "$": {
+                                    "name": "Stills",
+                                    "uid": "FCC4BB19-16F7-4692-813C-1EE0556A009C",
+                                    "modDate": "2019-09-06 11:01:57 -0400"
+                                },
+                                "sequence": [
+                                    {
+                                        "$": {
+                                            "duration": "70070/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "asset-clip": [
+                                                    {
+                                                        "$": {
+                                                            "name": "Sample_5D4_1080p",
+                                                            "offset": "0s",
+                                                            "ref": "r2",
+                                                            "duration": "70070/24000s",
+                                                            "start": "911757847/24000s",
+                                                            "audioRole": "dialogue",
+                                                            "tcFormat": "NDF"
+                                                        },
+                                                        "marker": [
+                                                            {
+                                                                "$": {
+                                                                    "start": "227940713/6000s",
+                                                                    "duration": "1001/24000s",
+                                                                    "value": "Marker 1"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "start": "5698693/150s",
+                                                                    "duration": "1001/24000s",
+                                                                    "value": "Marker 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "start": "18995977/500s",
+                                                                    "duration": "1001/24000s",
+                                                                    "value": "Marker 3"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "smart-collection": [
+                    {
+                        "$": {
+                            "name": "Projects",
+                            "match": "all"
+                        },
+                        "match-clip": [
+                            {
+                                "$": {
+                                    "rule": "is",
+                                    "type": "project"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "All Video",
+                            "match": "any"
+                        },
+                        "match-media": [
+                            {
+                                "$": {
+                                    "rule": "is",
+                                    "type": "videoOnly"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "rule": "is",
+                                    "type": "videoWithAudio"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "Audio Only",
+                            "match": "all"
+                        },
+                        "match-media": [
+                            {
+                                "$": {
+                                    "rule": "is",
+                                    "type": "audioOnly"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "Stills",
+                            "match": "all"
+                        },
+                        "match-media": [
+                            {
+                                "$": {
+                                    "rule": "is",
+                                    "type": "stills"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "Favorites",
+                            "match": "all"
+                        },
+                        "match-ratings": [
+                            {
+                                "$": {
+                                    "value": "favorites"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

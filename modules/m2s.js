@@ -8,7 +8,7 @@ const cp = require('child_process');
 // const logFolder = (process.env.ROOT_DIR + "/tools/logs");
 var psBoost001 = "curves=psfile='" + __basedir + "/curves/boost.acv'";
 var gh4Boost_001 = "curves=psfile='" + __basedir + "/curves/boost.acv'";
-//
+
 function Still(tsElements, videoFilePath, settings){
   this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
@@ -36,16 +36,6 @@ function Still(tsElements, videoFilePath, settings){
   console.log("\n\n\n\n\n\n\n\n\ngoing to try to log newDateString");
   console.log(this.newDateString);
 }
-
-// function toMongo(stillArray){
-//   MongoClient.connect(process.env.MONGODB_URL, function(err, db) {
-//     assert.equal(null, err);
-//     stillArray.forEach(function(still){
-//       db.collection('stills').insertOne({still});
-//     });
-//     db.close();
-//     });
-//   }
 
 function findStillsProject(result){
   var theProject = ""
@@ -115,10 +105,17 @@ function fcpxmlFileToStills(settings){
         + settings.css
         + "</style><body><h1>your stills</h1>"
       settings.htmlOutputEnd = "</body>"
+      console.log("\n\n\nnew settings:");
+      console.log(JSON.stringify(settings, null, 4));
       fs.ensureDir(settings.jobDir);
       fs.ensureDir(settings.jobStillsDir);
-      fs.writeFileSync(path.join(settings.jobDir, (settings.jobId + "_m2sSequenceObject.json")),
-        JSON.stringify(result, null, 4));
+      fs.writeFileSync(
+        path.join(
+          settings.jobDir,
+          (settings.jobId + "_m2sSequenceObject.json")
+        ), "test"
+      );
+      //   JSON.stringify(result, null, 4));
       var theProject = findStillsProject(result);
       parseTheStuff(settings, result, stillArray, theProject);
     }

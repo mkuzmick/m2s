@@ -11,9 +11,9 @@ exports.configure = function(yargs){
 
   var defaultSettings = {
     valid: false,
-    ffmpegPath: false,
-    html: false,
-    outputDir: "~/Desktop/_m2s",
+    ffmpegPath: 'ffmpeg',
+    html: true,
+    outputDir: path.join(process.env.HOME, 'Desktop', '_ll-tools-output', 'm2s'),
     fcpxml: false,
     css: fs.readFileSync(path.join(__basedir, "styles", "default.css"), "utf-8")
   }
